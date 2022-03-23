@@ -1,0 +1,31 @@
+
+.contentWrapper {
+    width: 95%;
+    height: 85%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.contentWrapper section {
+    flex: 1;
+    min-height: 100%;
+    scroll-snap-align: start;
+}
+
+.one {
+    background-color: rgba(0, 0, 0, 0.322);
+    border-bottom: 1px solid black;
+}
+
+.two {
+    background-color: rgba(0, 0, 0, 0.322);
+    border-bottom: 1px solid black;
+}
+
+.three {
+    background-color: rgba(0, 0, 0, 0.322);
+}

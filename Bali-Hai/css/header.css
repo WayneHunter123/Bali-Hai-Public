@@ -1,0 +1,96 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.headerWrapper {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 10%;
+    min-height: 60px;
+    background-color: black;
+    background-image: url('https://static.wixstatic.com/media/722a01_c1088a6b2ed744a99b02c6de294ace04~mv2.jpg/v1/fill/w_2954,h_1622,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/722a01_c1088a6b2ed744a99b02c6de294ace04~mv2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BaliLogo {
+    width: 65px;
+    height: 65px;
+    background-image: url('https://www.dropbox.com/s/t8bsmb1w11aocb3/Balihighlogo-removebg-preview.png?raw=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.LoginWrapper {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 11%;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.loginForm {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username {
+    margin-top: 5px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    width: 50%;
+}
+
+.password {
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    width: 50%;
+}
+
+.submit {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 10px;
+    width: 20%;
+}
+
+.login {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+/*//*/
+/*/login animations/*/
+
+@keyframes slideIn {
+    0% {transform: translateY(-110%);}
+    100% {transform: translateY(0%);}
+}
+
+@keyframes slideOut {
+    0% {transform: translateY(0%);}
+    100% {transform: translateY(-110%);}
+}
